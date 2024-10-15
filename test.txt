@@ -1,0 +1,62 @@
+
+	int a = 0;
+	scanf("%d", &a);
+	switch (a)
+	{
+		case 1;
+			printf("%d",a)
+			/*/int num = 0;
+			scanf("%d", &num);
+			if (num % 2 == 0)
+				printf("%d是偶数 ", num);
+			else
+				printf("%d是奇数 ", num);
+			int i = 1;*/
+			break;
+
+		case 2;
+			printf("%d",a)
+			/*while (i <= 100)
+			{
+				if (i % 2 == 1)
+					printf("%d ", i);
+				i++;
+			}*/
+			break;
+	}
+	return 0;
+
+---------------------------------------------------------------------------------
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+#include <string.h>
+
+//struct 勇者
+//{
+//	char name [20];
+//	short price;
+//};
+
+//int main()
+//{
+//	struct 勇者 a1 = { "天童爱丽丝",100 };
+//	struct 勇者* pa1 = &a1;
+//	printf("角色 = %s\n", pa1->name);
+//	printf("价格 = %d\n", pa1->price);
+//	strcpy(pa1->name,"爱丽丝 玛格特罗伊德");
+//	printf("异次元角色 = %s\n",a1.name);
+//	printf("价格 = %d\n",a1.price);
+//	a1.price = 50;
+//	
+//
+//	/*char ch = 'w';
+//	int* mypc = &ch;
+//	int a = sizeof mypc;
+//	printf("mypc = %p\n",mypc);
+//	printf("mypc = %p\n",&ch);
+//	printf("sizeof = %d\n",a);*/
+//	
+//	return 0;
+//}
